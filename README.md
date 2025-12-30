@@ -7,4 +7,7 @@ This simple Python project has tests for the three Food Truck Challenge API endp
 2. Install the python dependencies in requirements.txt
 3. Run the pytests using the command line or an IDE 
 
+## Example test results
+![pytest results](test_results.jpg)
+
 Note: The steps should be more detailed and tested to know that they can be followed
