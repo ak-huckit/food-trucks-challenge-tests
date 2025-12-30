@@ -1,5 +1,5 @@
 # Automated tests for Food Trucks API
-This simple Python project has tests for the three Food Truck API endpoints.
+This simple Python project has tests for the three Food Truck Challenge API endpoints.
 
 ## Running the tests
 1. Follow the Food Truck API readme to run the Food Truck application locally
