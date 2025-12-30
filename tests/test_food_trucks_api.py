@@ -8,12 +8,11 @@ There are three endpoints, which are all gets.
  - /api/MobileFoodTrucks/searchByStreet
     - street: required (does a partial match)
  - /api/MobileFoodTrucks/nearestFoodTrucks
- - name: required (does a partial match)
-    - latitude: not required (defaults to 0)
-    - longitude: not required (defaults to 0)
+    - latitude: not required
+    - longitude: not required
     - status: not required (defaults to Approved)
 
-Swagger documentation: http://localhost:5000/swagger/index.html
+Swagger reference: http://localhost:5000/swagger/index.html
 """
 import logging
 
@@ -26,6 +25,7 @@ from tests.utils import get_search_by_name, get_search_by_street, get_nearest_fo
 #   - Probably pick better test data examples with more time
 #   - Plenty more test cases could be thought of
 #       - special character processing in applicant name
+#       - confirm case does not matter
 #       - any limit to the length of the strings in the payload provided
 #   - Did not confirm all the responses were correct
 
