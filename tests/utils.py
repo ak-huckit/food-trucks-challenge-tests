@@ -27,7 +27,7 @@ class ApplicantStatus(Enum):
 
 
 def api_request(url: str, payload: dict) -> requests.Response:
-    """Lowest level get call to a FoodTruck API endpoint."""
+    """Lowest level GET call to a FoodTruck API endpoint."""
     full_url = BASE_URL + url
     logging.debug(f'Making get request to "{full_url}" with payload" {payload}')
     # Might want to have additional retry functionality
