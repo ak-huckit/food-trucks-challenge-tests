@@ -11,7 +11,7 @@ There are three endpoints, which are all gets.
  - name: required (does a partial match)
     - latitude: not required (defaults to 0)
     - longitude: not required (defaults to 0)
-    - status: not required
+    - status: not required (defaults to Approved)
 
 Swagger documentation: http://localhost:5000/swagger/index.html
 """
